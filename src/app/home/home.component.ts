@@ -12,11 +12,11 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.db.collection('todos')
-      .valueChanges()
-      .subscribe(data => {
-        console.log(data)
-      })
+    // this.db.collection('todos')
+    //   .valueChanges()
+    //   .subscribe(data => {
+    //     console.log(data)
+    //   })
   }
 
 }
